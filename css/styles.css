@@ -1,0 +1,133 @@
+body {
+  font-family:Calibri;
+  font-size: 20px;
+}
+
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.images {
+  width: 220px;
+  height: 200px;
+  margin: 20px;
+  border-radius: 50%;
+}
+
+#title-img {
+  border-radius: 50%;
+  height: 400px;
+  width: 400px;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: Rosario;
+  line-height: 1.5;
+  margin-top: 100px;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-weight: bold;
+  font-family: Arial;
+  font-size: 1.7rem;
+}
+
+p {
+  color: gray;
+}
+/* navigation bar */
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.navbar-brand {
+  font-family: Ubuntu Mono;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#title {
+  background-color: #256091;
+  color: white;
+}
+
+.about-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* features */
+
+#features {
+  padding: 7% 15%;
+}
+
+.feat-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #5ca0d3;
+}
+
+/* testimonials */
+
+#testimonials {
+
+  text-align: center;
+  background-color: #256091;
+  color: white;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#cta {
+  background-color: white;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.cta-heading {
+  line-height: 1.5;
+  font-size: 2rem;
+}
+
+/* Footer */
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #256091;
+}
+
+#copy {
+  color: white;
+}
+
+@media (max-width: 1028px) {
+  #title-img {
+    position:static;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+}
